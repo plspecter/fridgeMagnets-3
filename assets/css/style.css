@@ -1,0 +1,55 @@
+/* body {
+    background: url(../naruto.jpg) no-repeat;
+
+} */
+
+.naruto {
+    background: url(../naruto.jpg);
+    position: absolute;
+    left: 10px;
+    margin: 10px;
+    height: 278px;
+    width: 362px;
+    border: solid black 5px;
+    
+
+}
+
+.sakura {
+    background: url(../sakura.jpg);
+    position: relative;
+    left: 400px;
+    top: 20px;
+    margin: 10px;
+    height: 216px;
+    width: 288px;
+    border: solid black 5px;
+}
+
+#clear {
+    position: absolute;
+    top: 400px;
+    width: 200px;
+    margin: 20px;
+}
+
+.click-naruto-color {
+    border: solid orange 5px;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+}
+.click-sakura-color {
+    border: solid palevioletred 5px;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    left: 600px;
+    bottom: 400px;
+}
